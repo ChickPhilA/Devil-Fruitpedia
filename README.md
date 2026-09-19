@@ -1,8 +1,8 @@
 # WEB103 Project 1 - *Name of App Here*
 
-Submitted by: **Your name here**
+Submitted by: **Philli1pe Manio**
 
-About this web app: **App description here**
+About this web app: **Devil Fruitpedia**
 
 Time spent: **X** hours
 
@@ -49,7 +49,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [Phillipe Manio]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
