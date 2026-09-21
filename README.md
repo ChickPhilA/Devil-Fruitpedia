@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 - [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
   - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
   - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [ ] **The web app serves an appropriate 404 page when no matching route is defined**
+- [X] **The web app serves an appropriate 404 page when no matching route is defined**
 - [ ] **The web app is styled using Picocss**
 
 The following **optional** features are implemented:
