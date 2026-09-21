@@ -7,7 +7,7 @@ const devil_fruits = [
         users: ['Monkey D. Luffy'],
         description: 'Turns the eater\'s body into rubber, making them immune to blunt attacks and electricity. It was later revealed to be the Hito Hito no Mi, Model: Nika.',
         type: 'Paramecia',
-        picture: '/public/assets/gomu.png'
+        picture: '/public/assets/gomu.webp'
     },
     {
         id: 'mera',
@@ -15,15 +15,15 @@ const devil_fruits = [
         users: ['Sabo', 'Portgas D. Ace'],
         description: 'Lets the eater create, control and become fire. It was eaten by Ace, and after his death it was won by Sabo in the Dressrosa tournament.',
         type: 'Logia',
-        picture: '/public/assets/mera.png'
+        picture: '/public/assets/mera.webp'
     },
     {
-        id: 'hie',
-        name: 'Hie Hie no Mi',
-        users: ['Kuzan (Aokiji)'],
-        description: 'Lets the eater create, control and become ice. It can freeze large areas of the sea in an instant.',
+        id: 'goro',
+        name: 'Goro Goro no Mi',
+        users: ['Enel'],
+        description: 'Lets the eater create, control and become lightning. It made Enel the self-proclaimed god of Skypiea.',
         type: 'Logia',
-        picture: '/public/assets/hie.png'
+        picture: '/public/assets/goro.webp'
     },
     {
         id: 'yami',
@@ -31,7 +31,7 @@ const devil_fruits = [
         users: ['Marshall D. Teach (Blackbeard)'],
         description: 'Lets the eater create and control darkness. It can pull in and nullify other Devil Fruit powers, at the cost of making the user take more damage.',
         type: 'Logia',
-        picture: '/public/assets/yami.png'
+        picture: '/public/assets/yami.webp'
     },
     {
         id: 'gura',
@@ -39,7 +39,7 @@ const devil_fruits = [
         users: ['Marshall D. Teach (Blackbeard)', 'Edward Newgate (Whitebeard)'],
         description: 'Lets the eater create powerful tremors, and is said to be capable of destroying the world. Blackbeard took it after Whitebeard\'s death.',
         type: 'Paramecia',
-        picture: '/public/assets/gura.png'
+        picture: '/public/assets/gura.webp'
     },
     {
         id: 'hana',
@@ -55,7 +55,7 @@ const devil_fruits = [
         users: ['Tony Tony Chopper'],
         description: 'Gives the eater human intelligence and the ability to become a human or a human-animal hybrid. Chopper ate it as a reindeer.',
         type: 'Zoan',
-        picture: '/public/assets/hito.png'
+        picture: '/public/assets/hito.webp'
     },
     {
         id: 'ope',
@@ -63,7 +63,7 @@ const devil_fruits = [
         users: ['Trafalgar D. Water Law'],
         description: 'Lets the eater create a spherical operating room where they can cut, rearrange and swap anything inside. It is known as the ultimate Devil Fruit.',
         type: 'Paramecia',
-        picture: '/public/assets/ope.png'
+        picture: '/public/assets/ope.webp'
     }
 ]
 
