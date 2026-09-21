@@ -1,8 +1,12 @@
 import express from 'express'
+import dfRouter from './routes/devil_fruits.js'
+
 const app = express()
 
+//** MIDDLEWARE **/
 app.use('/public', express.static('../client/src/public'))
 // app.use('/scripts', express.static('./public/scripts'))
+app.use('/devil_fruits', dfRouter) // devil fruit router
 
 app.get('/', (req, res) => {
     res.status(200).send("<h1> Success!! </h1>")
