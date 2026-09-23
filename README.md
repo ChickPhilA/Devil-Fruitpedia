@@ -1,8 +1,8 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - **Devil Fruitpedia**
 
 Submitted by: **Phillipe Manio**
 
-About this web app: **Devil Fruitpedia**
+About this web app:
 **Devil Fruitpedia is an encyclopedia of all of the Devil Fruits in the One Piece universe. From Zoans, to Paramecias, to Logias, discover all of the mysterious, yet powerful Devil Fruits the One Piece world has to offer!**
 
 Time spent: **7** hours
