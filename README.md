@@ -3,22 +3,23 @@
 Submitted by: **Philli1pe Manio**
 
 About this web app: **Devil Fruitpedia**
+**Devil Fruitpedia is an encyclopedia of all of the Devil Fruits in the One Piece universe. From Zoans, to Paramecias, to Logias, discover all of the mysterious, yet powerful Devil Fruits the One Piece world has to offer!**
 
-Time spent: **X** hours
+Time spent: **7** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
-- [ ] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [X] **The web app displays a title**
+- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
+- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
+  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
 - [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is styled using Picocss**
+- [X] **The web app is styled using Picocss**
 
 The following **optional** features are implemented:
 
@@ -34,18 +35,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://youtu.be/u3HAjlabfmI
 
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+**As I'm not as experienced in backend, I feel like there were a lot of steps and a high steep in the learning curve trying to build my first backend project. I feel like there were a lot of steps and structure to keep track of in order to keep our web page properly composed and displayed as much as possible. My web page isn't pretty as well, but the learning experience is the most important part here. I believe that with more experience and challenges, it will help me further understand how web pages and full stack applications, work under the hood, while transmitting data and routes to show the user in the frontend.**
 
 ## License
 
