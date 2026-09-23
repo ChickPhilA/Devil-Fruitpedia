@@ -31,8 +31,6 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
 https://youtu.be/u3HAjlabfmI
