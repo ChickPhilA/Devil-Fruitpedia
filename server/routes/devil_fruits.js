@@ -17,8 +17,9 @@ router.get('/', (req, res) => {
     res.status(200).json(devil_fruits)
 })
 
+// This is to display individual information pertaining to each devil fruit.
 router.get('/:fruitId', (req, res) => {
-    res.status(200).sendFile(path.resolve(__dirname, '../../client/index.html'))
+    res.status(200).sendFile(path.resolve(__dirname, '../../client/src/public/fruit.html'))
 })
 
 export default router
