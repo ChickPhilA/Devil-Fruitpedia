@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import dfRouter from './routes/devil_fruits.js'
