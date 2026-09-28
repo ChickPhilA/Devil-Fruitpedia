@@ -17,9 +17,15 @@ router.get('/', (req, res) => {
     res.status(200).json(devil_fruits)
 })
 
-// This is to display individual information pertaining to each devil fruit.
+// Sends JSON information regarding a particular fruit!
 router.get('/:fruitId', (req, res) => {
-    res.status(200).sendFile(path.resolve(__dirname, '../../client/src/public/fruit.html'))
+    const fruit = devil_fruits.find(fruit => fruit.id === req.params.fruitId)
+    if(fruit) {
+        res.status(200).json(fruit)
+    }
+    else {
+        res.status(404).json({ error: "Fruit not found! "})
+    }
 })
 
 export default router
