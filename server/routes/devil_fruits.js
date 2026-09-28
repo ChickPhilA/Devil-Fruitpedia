@@ -3,7 +3,7 @@
 import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import FruitsController from '../controllers/devil_fruits.js'
+import { FruitsController } from '../controllers/devil_fruits.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
