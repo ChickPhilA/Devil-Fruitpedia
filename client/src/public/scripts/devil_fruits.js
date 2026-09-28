@@ -13,7 +13,7 @@ const renderFruits = async () => {
             card.innerHTML = `
                 <img src="${fruit.picture}" alt="${fruit.name}">
                 <h2>${fruit.name}</h2>
-                <a href="/devil_fruits/${fruit.id}" role="button">Read More</a>
+                <a href="/fruits/${fruit.id}" role="button">Read More</a>
             `
 
             gridContainer.appendChild(card)
@@ -27,28 +27,27 @@ const renderFruits = async () => {
 
 const renderFruit = async () => {
     const requestedId = window.location.href.split('/').pop() // grabs the ID of the fruit in the URL
-    const response = await fetch('/devil_fruits')
+    const response = await fetch(`/devil_fruits/${requestedId}`)
     const data = await response.json()
 
     const fruitBox = document.querySelector('.fruit-box')
-    let fruit = data.find(fruit => fruit.id === requestedId)
 
-    if(fruit) {
+    if(data && !data.error) {
         const fruitName = document.getElementById('fruit-name')
-        fruitName.textContent = fruit.name
+        fruitName.textContent = data.name
 
         const fruitImage = document.getElementById('fruit-image')
-        fruitImage.src = fruit.picture
-        fruitImage.alt = fruit.name
+        fruitImage.src = data.picture
+        fruitImage.alt = data.name
 
         const fruitType = document.getElementById('fruit-type')
-        fruitType.textContent = fruit.type
+        fruitType.textContent = data.type
 
         const fruitUsers = document.getElementById('fruit-users')
-        fruitUsers.textContent = `${fruit.users[0]} (past: ${fruit.users.slice(1).join(', ') || 'none'})`
+        fruitUsers.textContent = `${data.users[0]} (past: ${data.users.slice(1).join(', ') || 'none'})`
 
         const fruitDescription = document.getElementById('fruit-description')
-        fruitDescription.textContent = fruit.description
+        fruitDescription.textContent = data.description
     }
     else {
         const noDataFound = document.createElement('h1')
@@ -62,7 +61,7 @@ const requestedURL = window.location.pathname
 if(requestedURL === '/') {
     renderFruits()
 }
-else if(requestedURL.startsWith('/devil_fruits')) {
+else if(requestedURL.startsWith('/fruits')) {
     // TODO: this also matches bare '/devil_fruits' with no id- FIX LATER!
     renderFruit()
 }
