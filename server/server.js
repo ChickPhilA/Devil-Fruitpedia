@@ -10,11 +10,15 @@ const app = express()
 
 //** MIDDLEWARE **/
 app.use('/public', express.static('../client/src/public'))
-// app.use('/scripts', express.static('./public/scripts'))
 app.use('/devil_fruits', dfRouter) // devil fruit router
 
 app.get('/', (req, res) => {
-    res.status(200).send('<h1> SUCCESS!!! </h1>')
+    res.status(200).sendFile(path.resolve(__dirname, '../client/index.html'))
+})
+
+// Route for a detailed devil fruit page
+app.get('/fruits/:fruitId', (req, res) => {
+    res.status(200).sendFile(path.resolve(__dirname, '../client/src/public/fruit.html'))
 })
 
 // In Express v5 and up, the wildcard must have a name with it.
