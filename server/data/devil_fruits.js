@@ -47,7 +47,7 @@ const devil_fruits = [
         users: ['Nico Robin'],
         description: 'Lets the eater sprout copies of their body parts from any surface, letting them attack from anywhere.',
         type: 'Paramecia',
-        picture: '/public/assets/hana.png'
+        picture: '/public/assets/hana.webp'
     },
     {
         id: 'hito',
