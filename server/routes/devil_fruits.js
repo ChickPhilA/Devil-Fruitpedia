@@ -4,6 +4,7 @@ import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { getFruits } from '../controllers/devil_fruits.js'
+import { getFruitById } from '../controllers/devil_fruits.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -15,14 +16,6 @@ const router = express.Router()
 router.get('/', getFruits) 
 
 // Sends JSON information regarding a particular fruit!
-router.get('/:fruitId', (req, res) => {
-    const fruit = devil_fruits.find(fruit => fruit.id === req.params.fruitId)
-    if(fruit) {
-        res.status(200).json(fruit)
-    }
-    else {
-        res.status(404).json({ error: "Fruit not found! "})
-    }
-})
+router.get('/:fruitId', getFruitById)
 
 export default router
