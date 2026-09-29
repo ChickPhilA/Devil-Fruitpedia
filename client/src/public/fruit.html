@@ -7,6 +7,7 @@
 
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.amber.min.css">
+    <link rel="stylesheet" href="/public/style.css">
 
     <script defer src="/public/scripts/devil_fruits.js"></script>
 
@@ -19,12 +20,16 @@
       <a href="/">← Back to all fruits</a>
 
       <article class="fruit-box">
-        <h1 id="fruit-name"></h1>
-        <img id="fruit-image" src="" alt="">
+        <div class="fruit-header">
+          <h1 id="fruit-name"></h1>
+          <img id="fruit-image" src="" alt="">
+        </div>
 
-        <p><strong>Type:</strong> <span id="fruit-type"></span></p>
-        <p><strong>Current user:</strong> <span id="fruit-users"></span></p>
-        <p><strong>Description:</strong> <span id="fruit-description"></span></p>
+        <div class="fruit-fields">
+          <p><strong>Type:</strong> <span id="fruit-type"></span></p>
+          <p><strong>Current user:</strong> <span id="fruit-users"></span></p>
+          <p><strong>Description:</strong> <span id="fruit-description"></span></p>
+        </div>
       </article>
     </main>
 
