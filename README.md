@@ -1,17 +1,19 @@
-# WEB103 Project 1 - **Devil Fruitpedia**
+# WEB103 Project 1 + 2 - **Devil Fruitpedia**
 
 Submitted by: **Phillipe Manio**
 
 About this web app:
 **Devil Fruitpedia is an encyclopedia of all of the Devil Fruits in the One Piece universe. From Zoans, to Paramecias, to Logias, discover all of the mysterious, yet powerful Devil Fruits the One Piece world has to offer!**
 
-Time spent: **7** hours
+Time spent: **7** hours (Part 1)
+Time spent: **4** hours (Part 2)
 
-## Required Features
+## Part 1 Functionality
+
+### Required Features
 
 The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [X] **The web app displays a title**
 - [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
@@ -29,17 +31,42 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you added to improve the site's functionality!
 
+## Part 2 Functionality
+
+### Required Features
+
+The following **required** functionality is completed:
+
+<!-- Make sure to check off completed functionality below -->
+- [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [X] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
+
+The following **optional** features are implemented:
+
+- [ ] The user can search for items by a specific attribute
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you added to improve the site's functionality!
+
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-https://youtu.be/u3HAjlabfmI
+https://youtu.be/u3HAjlabfmI (Project 1)
+https://youtu.be/JzN19V901UM (Project 2)
 
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 **As I'm not as experienced in backend, I feel like there were a lot of steps and a high steep in the learning curve trying to build my first backend project. I feel like there were a lot of steps and structure to keep track of in order to keep our web page properly composed and displayed as much as possible. My web page isn't pretty as well, but the learning experience is the most important part here. I believe that with more experience and challenges, it will help me further understand how web pages and full stack applications, work under the hood, while transmitting data and routes to show the user in the frontend.**
+
+**In Project 2, I didn't have as much difficulty as I did in Part 1. If I recall, a roadblock I was stuck in was figuring out how to return a detailed Devil Fruit info, after not needing to import the JSON data from the data/devil_fruits.js file anymore. I had to create a new function in the controllers/devil_fruits.js file, where I implement a function that gets a Devil Fruit by its ID through an SQL query. Although difficult, it helped me enhance my understanding the relationship between database queries/pooling and routing. Other than that, the basics of setting up a database and in Render as well, were not too bad as I thought it would be.**
 
 ## License
 
