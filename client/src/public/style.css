@@ -1,0 +1,53 @@
+.title {
+  text-align: center;
+}
+
+.grid {
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+
+.grid img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Keep the cards usable on narrower screens instead of squeezing 5 into a row */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Fruit detail page */
+.fruit-box {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fruit-header {
+  border: 2px solid var(--pico-primary);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#fruit-image {
+  max-width: 250px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+.fruit-fields p {
+  text-align: center;
+}
